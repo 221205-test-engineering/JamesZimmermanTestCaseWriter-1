@@ -1,0 +1,85 @@
+Rule: 
+usernames and passwords must contain 6-10 characters
+Test 1:
+User does not use 6-10 characters
+
+Expected Resault: 
+failure
+
+Actual Resault:
+failure
+
+Defect:
+none
+
+Severity:
+none
+__________________________________________________________________________
+Rule:
+Username and password must contian lowercase characters
+
+Test 2: 
+User inputs all uppercase or numbers username and password
+
+Expected Resault:
+user name and password must contain lowercase letters or a pop up alerting user to use lowercase letters.
+
+Actual Resault: 
+pop up alterting user to follow the rules 
+
+Defect:
+none
+
+Severity:
+none
+_________________________________________________________________________________
+
+Rule:
+Username must have lowercase and uppercase letters
+
+Test 3: 
+User inputs all uppercase username and password
+
+Expected Resault:
+user name and password must contain lowercase letters or a pop up alerting user to use lowercase letters.
+
+Actual Resault: 
+pop up alterting user to follow the rules 
+
+Defect:
+none
+
+Severity:
+none
+
+______________________________________________________________________________________________________
+Rule: username and password must contain a number
+Test 5:
+user only uses uppercase & lowercase letter
+
+Expected Resault: 
+Error message informing user to follow the naming convention for username and password and an failure to create account.
+
+Actual Resault:
+Error message & failure to create an account
+
+Defect:
+none
+
+Severity:
+none
+___________________________________________________________________________________________________________
+Test 6:
+user name and password cannot be the same
+
+Expected Resault: 
+Error message they cannot be the same
+
+Actual Resault: 
+success 
+
+Defect:
+user allowed to create a username and password that are identical
+
+Severity:
+Critical 

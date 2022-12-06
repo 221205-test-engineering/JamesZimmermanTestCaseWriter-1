@@ -1,0 +1,65 @@
+Rule:
+Users should not be able to contiue without reading entire document.
+Test1:
+Skip reading document
+
+Expected Resault: 
+The are no allowed to continue.
+
+Actual Resault:
+User can just sign the contract without any guarantee of them reading it
+
+Defect:
+none
+
+Severity:
+mild
+______________________________________________________________________________________________
+Rule:
+User must enter first name
+Test2:
+user doesn't enter first name
+
+Expected Resault:
+cannot continue
+
+Actual Resault:
+cannot continue
+
+Defect:
+user can delete input and continue
+
+Severity:
+Critical
+__________________________________________________________________________________________________
+Rule:
+User must enter last name.
+Test3:
+user doesn't enter last name
+Expected Resault:
+cannot continue
+
+Actual Resault:
+cannot continue
+Defect:
+User can delete inputs and still proceed
+
+Severity:
+critical
+_____________________________________________________________________________________________
+Rule:
+User must initail  the document with first and last initials capitalized.
+Test4:
+user does not capitalise input.
+
+Expected Resault:
+Cannot continue
+
+Actual Resault:
+cannot continue
+
+Defect:
+none
+
+Severity:
+none

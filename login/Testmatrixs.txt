@@ -1,0 +1,54 @@
+Test 1:      
+user attemps log in with correct username and password.  
+
+Expected Resault: 
+The user should be routed to the home page without issue.
+
+
+Actual Resault: 
+The user is routed to the homepage.
+
+Defect: 
+none
+
+Severity: 
+none
+
+_________________________________________________________________________
+Test 2        
+The user attempts to log in with correct username but wrong password
+
+Expected Resault: 
+Invalid password message
+
+
+Actual Resault: 
+invalad password message
+
+Defects: 
+none
+
+Severity: 
+none
+
+_________________________________________________________________________
+Test 3:
+The user should get a pop up warning of invalid username/password
+
+Expected Resault: 
+Pop up message invalid input
+
+Actual Resault: 
+Pop up message invalid input
+
+Defect:
+none
+
+Severity:
+none
+
+______________________________________________________________________
+
+User data:
+Username: username
+Password: password
